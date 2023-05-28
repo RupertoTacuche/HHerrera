@@ -193,7 +193,7 @@ svg {
   .nav__menu{
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     background-color: hsla(0, 0%, 10%, .3);
     width: 75%;
     height: 100%;
@@ -226,7 +226,9 @@ svg {
   right: 1.5rem;
 }
 /* Show menu */
-
+.show-menu{
+  right: 0;
+}
 
 /* Add blur to header */
 
